@@ -1,0 +1,11 @@
+Pseudo code
+
+
+1.Start
+2.Read N=12345
+3.Initialize Count=0
+4.While N != 0 repeat step 5 and 6, if N=0 go to step 7
+5.increase 1 in count value
+6.Divide N by 10
+7.print count 
+8.Stop
