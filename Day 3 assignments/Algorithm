@@ -1,0 +1,9 @@
+Algorithm
+
+1.start
+2.read N=12345 and initialize count=0
+3.while(N!=0) if N=0 go to step 7
+4.N=N/10
+5.count++
+6.print count
+7.end
