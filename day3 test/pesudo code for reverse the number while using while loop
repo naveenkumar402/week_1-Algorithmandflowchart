@@ -1,0 +1,10 @@
+1.Start
+2.Enter the number N
+3.read the number N
+4.declare variable a to store reverse number
+5.while N!=0 do step 6 and step 5, if N=0 do step 9
+6.rem=N%10
+7.a=(a*10)+rem
+8.N=N/10
+9.print a
+10.stop
