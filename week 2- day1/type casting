@@ -1,0 +1,9 @@
+public class Main{
+public static void main(String []args){
+float f=65.0f;
+int a=(int)f;
+char ch=(char)a;
+double d=(double)ch;
+System.out.println(a);
+System.out.println(ch);
+System.out.println(d);
