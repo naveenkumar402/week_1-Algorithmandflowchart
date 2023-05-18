@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	   Scanner sc=new Scanner(System.in);
+	   int h1=sc.nextInt();
+	   int h2=sc.nextInt();
+	   int h3=sc.nextInt();
+	   if(h1>h2){
+	       if(h1>h3) System.out.println(h1+"is tall person");
+	   }
+	   else if(h2>h3){
+	       if(h2>h1) System.out.println(h2+"is tall person");
+	   }
+	   else System.out.println(h3+"is tall person");
+	    
+	}
+}
