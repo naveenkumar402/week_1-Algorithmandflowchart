@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	  Scanner sc=new Scanner(System.in);
+	  int cost_price=sc.nextInt();
+	  int road_tax;
+	  if(cost_price>100000)  
+	    System.out.println((cost_price*0.15)+" amount to be paid");
+	  else if(cost_price>50000 && cost_price<=100000)  
+	    System.out.println((cost_price*0.1)+" amount to be paid");
+	  else      
+	    System.out.println((cost_price*0.05)+" amount to be paid");
+	}
+}
