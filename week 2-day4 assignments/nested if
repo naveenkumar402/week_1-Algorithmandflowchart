@@ -1,0 +1,20 @@
+public class Main
+{
+	public static void main(String[] args) {
+	   int m=90;
+	   char gender='M';
+	   if(gender=='M'){
+	       if(m==90) System.out.println("Intelligent boy");
+	       else if(m==40) System.out.println("Average boy");
+	       else System.out.println("Dull boy");
+	   }
+	   if(gender=='F'){
+	       if(m==90) System.out.println("Intelligent girl");
+	       else if(m==40) System.out.println("Average girl");
+	       else System.out.println("Dull girl");
+	   }
+	   
+	   
+	    
+	}
+}
