@@ -1,0 +1,22 @@
+package bitlabs;
+
+import java.util.Scanner;
+
+public class PrimeNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		int a=sc.nextInt();
+		int flag=0;
+		int i=2;
+		while(i<=a/2) {
+			if(a%i==0) flag++;
+			i++;
+		}
+		if(flag==0) System.out.println("prime number");
+		else System.out.println("Not prime number");
+
+	}
+
+}
